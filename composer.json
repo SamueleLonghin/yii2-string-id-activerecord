@@ -1,0 +1,31 @@
+{
+  "name": "samuelelonghin/yii2-string-id-activerecord",
+  "description": "new Yii2 String ID ActiveRecord ",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "activerecord",
+    "string-id",
+    "id",
+    "string",
+    "db"
+  ],
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Samuele Longhin",
+      "email": "longhin.samuele@outlook.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "samuelelonghin/yii2-activerecord": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "samuelelonghin\\db\\": ""
+    }
+  }
+}
